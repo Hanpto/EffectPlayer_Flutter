@@ -16,6 +16,7 @@ A new Flutter plugin project.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
+  s.libraries = 'c++'
   
   s.default_subspec = 'Default'
   s.subspec 'Default' do |default|
